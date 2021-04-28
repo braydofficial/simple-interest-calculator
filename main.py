@@ -10,12 +10,10 @@ invest = float(input("Enter amount: "))
 
 print("What do your estimate your yearly interest would be?")
 interest = float(input("Enter interest in decimals (10% = 0.1): "))
-
 print(' ')
 
 invest = invest * 12
 final_amount = 0
-
 for i in range(0, years):
     if final_amount == 0:
         final_amount = current_holdings
