@@ -1,4 +1,6 @@
 # A simple tool to calculate the estimated yearly interest
+import time
+
 print("How many years do you plan saving money?")
 years = int(input("Enter years: "))
 
@@ -28,3 +30,5 @@ print(
     "You would have the following amount in your account after {} years: ".format(years)
     + str(final_amount)
 )
+print("Program will close in 10 seconds.")
+time.sleep(10)
